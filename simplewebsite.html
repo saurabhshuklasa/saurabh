@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(2.jpg);
+        }
+        .bgimag{
+            background-image: url('saurabh.jpg');
+            background-size: 100% 100%;
+            width: 100%;
+            height: 100vh;
+        }
+        .leftlogo{
+            color: white;
+            padding-top: 30px;
+            
+        }
+        .rightnav ul {
+            float: right;
+            margin-right: 20px;
+        }
+       .rightnav ul li {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+       .rightnav ul li a {
+            color: white;
+            font-size: 17px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+
+        }
+        a.active,
+        a:hover {
+            background: turquoise;
+            transition: .5s;
+        }
+        .saurabh {
+            width: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .buttonone {
+            display: inline-block;
+            text-decoration: none;
+            border: 1px solid rgb(230, 109, 109);
+            font-size: 13px;
+            padding: 13px 34px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+            margin-top: 3%;
+        }
+
+        .buttonone:hover {
+            border: 1px solid rgb(230, 109, 109);
+            background: sandybrown;
+            transition: 1s;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="bgimag">
+        
+        <div class="rightnav">
+            <ul>
+                <li><a href="#active">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">SERVICE</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="saurabh">
+        <h4>WELCOME TO MY DESIGN</h4>
+        <h1>CREATIVE $ EXPERIENCED</h1>
+        <h3>WE ARE THE ONE OF THE WORDS TOP CREATIVE DESIGN AGENCIES</h3>
+        <button id="buttonone">click me</button>
+        <button id="buttontwo">click me again</button>
+    </div>
+
+    <footer>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: white; width: 100vw;">
+            <p style="margin-left: 40vw; padding: 2px;">CopyRights &copy; to my WebSite</p>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
